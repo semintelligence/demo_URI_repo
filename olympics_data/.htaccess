@@ -1,0 +1,5 @@
+
+$1 = Athlete/Olympics/AFG/Athletics/AbdulBaserWasiqi
+
+RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.*
+RewriteRule ^([A-za-z0-9]+)/(Olympics)/([A-Z)])/([A-Za-z])/([A-Za-z]))$ https://github.com/semintelligence/olympics-data/$1.ttl [R=303,L]
