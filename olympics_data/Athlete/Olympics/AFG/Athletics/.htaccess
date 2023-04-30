@@ -1,1 +1,3 @@
+RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.*
+RewriteRule ^(.*)$ https://github.com/semintelligence/olympics-data/Athlete/Olympics/AFG/Athletics/$1.ttl [R=303,L]
 
