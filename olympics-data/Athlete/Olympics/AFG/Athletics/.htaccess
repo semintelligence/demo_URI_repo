@@ -2,4 +2,4 @@ $1 = Athlete/Olympics/AFG/Athletics/AbdulBaserWasiqi
 
 
 RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.*
-RewriteRule ^(.*)$ https://semintelligence.github.io/olympics-data/Athlete/Olympics/AFG/Athletics/$1.ttl [R=303,L]
+RewriteRule ^(.*)$ https://github.com/semintelligence/olympics-data/Athlete/Olympics/AFG/Athletics/$1.ttl [R=303,L]
