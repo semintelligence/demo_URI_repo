@@ -1,7 +1,0 @@
-Header set Access-Control-Allow-Origin *
-Options +FollowSymLinks
-RewriteEngine on
-
-RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.*
-RewriteRule ^(.*)$ https://github.com/semintelligence/olympics-data/blob/main/Athlete/Olympics/AFG/Athletics/$1.ttl [R=303,L]
-
